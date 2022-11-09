@@ -21,7 +21,7 @@
 
   <table>
     <tr>
-      <th> veces </th>
+      <th> Nombre de Hotel </th>
     </tr>
 
       <?php
