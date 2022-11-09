@@ -10,7 +10,7 @@
   $nombre = $_POST["nombre_artista"];
 
   #Se construye la consulta como un string
-     $query = "SELECT count(nombre_artistico) AS veces FROM Entradas_cortesia WHERE LOWER(nombre_artistico) = LOWER('%$nombre%');";
+     $query = "SELECT count(nombre_artistico) AS veces FROM Entradas_cortesia WHERE LOWER(nombre_artistico) = LOWER('$nombre');";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
     $result = $db -> prepare($query);
@@ -33,3 +33,5 @@
   </table>
 
 <?php include('../templates/footer.html'); ?>
+  
+ 
