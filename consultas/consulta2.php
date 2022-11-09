@@ -20,13 +20,13 @@
 
   <table>
     <tr>
-      <th>veces $respuesta</th>
+      <th> veces </th>
     </tr>
   
       <?php
         // echo $pokemones;
         foreach ($respuesta as $p) {
-			echo "<tr> <td>$p</td> </tr>";
+			echo "<tr> <td>$p[0]</td> </tr>";
 		}
       ?>
       
