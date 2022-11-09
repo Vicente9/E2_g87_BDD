@@ -24,7 +24,6 @@
     </tr>
   
       <?php
-       
 	echo "<tr> <td>$respuesta</td> </tr>";
       ?>
       
