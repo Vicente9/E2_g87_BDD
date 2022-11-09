@@ -7,7 +7,7 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $nombre = ["nombre_artista"];
+  $nombre = $_Post["nombre_artista"];
 
   #Se construye la consulta como un string
      $query = "SELECT count(nombre_artistico) AS veces FROM Entradas_cortesia WHERE nombre_artistico = $nombre;";
@@ -24,7 +24,10 @@
     </tr>
 
       <?php
-        echo "<h2>" . $respuesta . "</h2>";
+        
+        foreach ($respuesta as $respuesta) {
+            echo "<tr> <td>$respuesta[0]</td> </tr>";
+        }
       ?>
 
   </table>
