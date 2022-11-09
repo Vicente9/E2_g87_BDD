@@ -9,7 +9,7 @@
 	$nombre = $_POST["nombre_artista"];
 	
 
- 	$query = "SELECT nombre_productora FROM Eventos Where nombre_artistico ='$nombre';";
+ 	$query = "SELECT nombre_productora FROM Eventos LOWER($nombre) AS nombre Where LOWER(nombre_artistico) =LOWER('nombre');";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$productoras = $result -> fetchAll();
