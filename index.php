@@ -13,7 +13,7 @@
   <br>
 
 
-  <form align="center" action="consultas/consulta_entradas_de_cortesia.php" method="post">
+  <form align="center" action="consultas/consulta2.php" method="post">
     <h3>Numero de entradas de cortesia que ha entregado un artista</h3>
     Nombre de Artista:
     <input type="text" name="nombre_artista">
