@@ -10,23 +10,26 @@
   $nombre = $_POST["nombre_artista"];
 
   #Se construye la consulta como un string
- 	$query = "SELECT count(nombre_artistico) AS veces FROM Entradas_cortesia WHERE nombre_artistico = $nombre;";
+     $query = "SELECT count(nombre_artistico) AS veces FROM Entradas_cortesia WHERE nombre_artistico = $nombre;";
 
   #Se prepara y ejecuta la consulta. Se obtienen TODOS los resultados
-	$result = $db -> prepare($query);
-	$result -> execute();
-	$respuesta = $result -> fetchAll();
+    $result = $db -> prepare($query);
+    $result -> execute();
+    $respuesta = $result -> fetchAll();
   ?>
 
   <table>
     <tr>
       <th> veces </th>
     </tr>
-  
+
       <?php
-	echo "<tr> <td>$respuesta</td> </tr>";
+        // echo $respuesta;
+        foreach ($respuesta as $p) {
+            echo "<tr> <td>$p[0]</td> </tr>";
+        }
       ?>
-      
+
   </table>
 
 <?php include('../templates/footer.html'); ?>
