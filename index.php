@@ -6,7 +6,7 @@
 
   <br>
 
-  <form action="consultas/consulta_nombre_y_telefono_artistas.php" method="post">
+  <form action="consultas/consulta1.php" method="post">
       <h3>Listado de nombre y telefono de contacto de artistas</h3>
       <input type="submit" name="dato" value="Consultar">
   </form>
