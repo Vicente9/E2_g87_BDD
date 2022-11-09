@@ -20,7 +20,7 @@
 
   <table>
     <tr>
-      <th> veces </th>
+      <th> Numero de entradas de cortesia entregadas </th>
     </tr>
 
       <?php
