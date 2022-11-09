@@ -19,7 +19,7 @@
 
 	<table>
     <tr>
-      <th>Evento</th>
+      <th>Eventos del Tour</th>
       <th>Lugar</th>
       <th>Artista</th>
       <th>Ciudad</th>
