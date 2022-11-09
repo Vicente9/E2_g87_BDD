@@ -23,7 +23,7 @@
   </form>
 
 
-  <form align="center" action="consultas/consulta_datos_ultimo_tour_artista.php" method="post">
+  <form align="center" action="consultas/consulta3.php" method="post">
     <h3>Datos de ultimo tour de un artista</h3>
     Nombre de Artista:
     <input type="text" name="nombre_artista">
@@ -33,7 +33,7 @@
   </form>
 
 
-  <form align="center" action="consultas/consulta_paises_visitados_en_tour.php" method="post">
+  <form align="center" action="consultas/consulta4.php" method="post">
     <h3>Paises que seran visitados en un tour</h3>
     Nombre del tour:
     <input type="text" name="nombre_artista">
@@ -43,7 +43,7 @@
   </form>
 
 
-  <form align="center" action="consultas/consulta_productoras_trabajado_con_artista.php" method="post">
+  <form align="center" action="consultas/consulta5.php" method="post">
     <h3>Paises que seran visitados en un tour</h3>
     Nombre del Artista:
     <input type="text" name="nombre_artista">
@@ -53,7 +53,7 @@
   </form>
 
 
-  <form align="center" action="consultas/consulta_hoteles_hospedado_artista.php" method="post">
+  <form align="center" action="consultas/consulta6.php" method="post">
     <h3>Paises que seran visitados en un tour</h3>
     Nombre del Artista:
     <input type="text" name="nombre_artista">
@@ -62,7 +62,7 @@
     <input type="submit" value="Consultar">
   </form>
 
-  <form action="consultas/consulta_artista_mas_entradas_de_cortesia.php" method="post">
+  <form action="consultas/consulta7.php" method="post">
       <h3>Artista con que ha entregado mayor cantidad de entradas de cortesia</h3>
       <input type="submit" name="dato" value="Consultar">
   </form>
