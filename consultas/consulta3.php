@@ -23,10 +23,11 @@
       <th>Paises</th>
       <th>Paises</th>
       <th>Paises</th>
+      <th>Paises</th>
     </tr>
   <?php
 	foreach ($paises as $paises) {
-  		echo "<tr> <td>$paises[0]</td> <td>$paises[1]</td> <td>$paises[2]</td> <td>$paises[3]</td> <td>$paises[4]</td>";
+  		echo "<tr> <td>$paises[0]</td> <td>$paises[1]</td> <td>$paises[2]</td> <td>$paises[3]</td> <td>$paises[4]</td> <td>$paises[5]</td>";
 	}
   ?>
 	</table>
