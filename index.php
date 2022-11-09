@@ -36,7 +36,7 @@
   <form align="center" action="consultas/consulta4.php" method="post">
     <h3>Paises que seran visitados en un tour</h3>
     Nombre del tour:
-    <input type="text" name="nombre_artista">
+    <input type="text" name="dato">
     <br>
     <br/>
     <input type="submit" value="Consultar">
