@@ -44,7 +44,7 @@
 
 
   <form align="center" action="consultas/consulta5.php" method="post">
-    <h3>Paises que seran visitados en un tour</h3>
+    <h3>Productoras con las que ha trabajado dicho artista</h3>
     Nombre del Artista:
     <input type="text" name="nombre_artista">
     <br>
@@ -54,7 +54,7 @@
 
 
   <form align="center" action="consultas/consulta6.php" method="post">
-    <h3>Paises que seran visitados en un tour</h3>
+    <h3>Hoteles en los que se ha hospedado un artista</h3>
     Nombre del Artista:
     <input type="text" name="nombre_artista">
     <br>
