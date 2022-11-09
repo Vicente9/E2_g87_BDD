@@ -1,4 +1,5 @@
 
+
 <?php include('../templates/header.html');   ?>
 
 <body>
@@ -18,18 +19,18 @@
 
 	<table>
     <tr>
-      <th>Paises</th>
-      <th>Paises</th>
-      <th>Paises</th>
-      <th>Paises</th>
-      <th>Paises</th>
-      <th>Paises</th>
-      <th>Paises</th>
-      <th>Paises</th>
+      <th>Evento</th>
+      <th>Lugar</th>
+      <th>Artista</th>
+      <th>Ciudad</th>
+      <th>Pais</th>
+      <th>Fecha Evento</th>
+      <th>Productora</th>
+
     </tr>
   <?php
 	foreach ($paises as $paises) {
-  		echo "<tr> <td>$paises[0]</td> <td>$paises[1]</td> <td>$paises[2]</td> <td>$paises[3]</td> <td>$paises[4]</td> <td>$paises[5]</td> <td>$paises[6]</td> <td>$paises[7]</td>";
+  		echo "<tr> <td>$paises[0]</td> <td>$paises[1]</td> <td>$paises[2]</td> <td>$paises[3]</td> <td>$paises[4]</td> <td>$paises[5]</td> <td>$paises[6]</td>";
 	}
   ?>
 	</table>
