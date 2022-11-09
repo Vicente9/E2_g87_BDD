@@ -25,7 +25,7 @@
   
       <?php
        
-	echo "<tr> <td>$p[0]</td> </tr>";
+	echo "<tr> <td>$respuesta</td> </tr>";
       ?>
       
   </table>
