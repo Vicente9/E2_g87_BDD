@@ -7,7 +7,7 @@
   require("../config/conexion.php");
 
   #Se obtiene el valor del input del usuario
-  $nombre = $_POST["nombre_artista"];
+  $nombre = ["nombre_artista"];
 
   #Se construye la consulta como un string
      $query = "SELECT count(nombre_artistico) AS veces FROM Entradas_cortesia WHERE nombre_artistico = $nombre;";
