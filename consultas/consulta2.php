@@ -24,10 +24,8 @@
     </tr>
   
       <?php
-        // echo $pokemones;
-        foreach ($respuesta as $p) {
-			echo "<tr> <td>$p[0]</td> </tr>";
-		}
+       
+	echo "<tr> <td>$p[0]</td> </tr>";
       ?>
       
   </table>
