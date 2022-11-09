@@ -20,7 +20,7 @@
 
   <table>
     <tr>
-      <th>veces</th>
+      <th>veces $respuesta</th>
     </tr>
   
       <?php
