@@ -17,7 +17,7 @@
 
 	<table>
     <tr>
-      <th>Artista</th>
+      <th>Paises</th>
     </tr>
   <?php
 	foreach ($paises as $paises) {
