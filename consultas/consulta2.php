@@ -24,10 +24,9 @@
     </tr>
 
       <?php
-        // echo $respuesta;
-        foreach ($respuesta as $p) {
-            echo "<tr> <td>$p[0]</td> </tr>";
-        }
+        
+        echo . $respuesta .;
+        
       ?>
 
   </table>
