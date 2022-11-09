@@ -24,9 +24,7 @@
     </tr>
 
       <?php
-        
-        echo . $respuesta .;
-        
+        echo "<h2>" . $respuesta . "</h2>";
       ?>
 
   </table>
